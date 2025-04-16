@@ -1,0 +1,27 @@
+owner: personal
+
+environments:
+  - label: production
+    targetAccess: public
+    targetOverrides:
+      configuration:
+        enableStudioAccessToApis: true
+        playableDevices: [computer]
+
+target:
+  experience:
+    icon: marketing/game-icon.png
+    configuration:
+      playableDevices: [computer]
+      avatarType: r6
+      avatarAnimationType: standard
+      enableStudioAccessToApis: true
+      genre: townAndCity
+    places:
+      start:
+        file: place.rbxl
+        configuration:
+          name: Lockridge 
+          maxPlayerCount: 36
+          serverFill: maximum
+

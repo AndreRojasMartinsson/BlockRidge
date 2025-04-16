@@ -1,0 +1,30 @@
+{
+  "name": "basicstate-tests",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "BasicState": {
+        "$path": "default.project.json"
+      }
+    },
+    "TestService": {
+      "$className": "TestService",
+      "$properties": {
+        "ExecuteWithStudioRun": true
+      },
+      "Packages": {
+        "$path": "modules"
+      },
+      "TestRunner": {
+        "$path": "test-runner.server.lua"
+      }
+    },
+    "Players": {
+      "$className": "Players",
+      "$properties": {
+        "CharacterAutoLoads": false
+      }
+    }
+  }
+}

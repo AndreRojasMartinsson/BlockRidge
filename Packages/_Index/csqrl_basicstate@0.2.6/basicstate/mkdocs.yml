@@ -1,0 +1,44 @@
+site_name: BasicState
+site_url: https://csqrl.github.io/BasicState/
+site_author: csqrl
+site_description: A really simple state management solution for Roblox
+repo_name: csqrl/BasicState
+repo_url: https://github.com/csqrl/BasicState
+edit_uri: edit/default/docs
+
+use_directory_urls: true
+
+theme:
+  name: material
+  logo: https://raw.githubusercontent.com/csqrl/BasicState/default/.github/assets/bs-favicon.svg
+  favicon: https://raw.githubusercontent.com/csqrl/BasicState/default/.github/assets/bs-favicon.png
+  language: en
+  palette:
+    primary: green
+    accent: green
+    scheme: preference
+  font:
+    code: "Fira Code"
+  icon:
+    repo: fontawesome/brands/github
+  highlightjs: true
+  hljs_languages:
+    - lua
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/csqrl/
+
+nav:
+  - Home: index.md
+  - Examples: example.md
+  - Documentation: docs.md
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - pymdownx.superfences
+  - toc:
+      permalink: true

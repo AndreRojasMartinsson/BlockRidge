@@ -1,0 +1,143 @@
+{
+	"name": "lockridge",
+	"globIgnorePaths": ["assets/animations", "assets/images", "assets/sounds", "assets/init.d.ts"],
+	"tree": {
+		"$className": "DataModel",
+
+		"ReplicatedStorage": {
+			"Shared": {
+				"$path": "src/shared"
+			},
+			"Packages": {
+				"$path": "Packages"
+			},
+			"ExperienceAssets": {
+				"$path": "assets"
+			},
+			"DevPackages": {
+				"$path": "DevPackages"
+			},
+
+			"Accessories": {
+				"$path": "map/Accessories.rbxm"
+			},
+			"Assets": {
+				"$path": "map/Assets.rbxm"
+			},
+			"Buffer": {
+				"$path": "map/Buffer.rbxm"
+			},
+			"StaticStreaming": {
+				"$path": "map/StaticStreaming.rbxm"
+			},
+			"Consent": {
+				"$path": "map/Consent.rbxm"
+			},
+			"ConsentOverride": {
+				"$path": "map/ConsentOverride.rbxm"
+			},
+			"Clothing": {
+				"$path": "map/Clothing.rbxm"
+			},
+			"gizmo": {
+				"$path": "map/gizmo.rbxm"
+			},
+			"PatternChange": {
+				"$path": "map/PatternChange.rbxm"
+			},
+			"Armoury": {
+				"$path": "map/Armoury.rbxm"
+			},
+			"GiveItem": {
+				"$path": "map/GiveItem.rbxm"
+			},
+			"IntFinished": {
+				"$path": "map/IntFinished.rbxm"
+			},
+			"Locker": {
+				"$path": "map/Locker.rbxm"
+			},
+			"Search": {
+				"$path": "map/Search.rbxm"
+			},
+			"StreamingFinished": {
+				"$path": "map/StreamingFinished.rbxm"
+			},
+
+			"VehicleClient": {
+				"$path": "map/VehicleClient.rbxm"
+			}
+		},
+
+		"ServerScriptService": {
+			"SetupAnimations": {
+				"$path": "map/SetupAnimations.rbxm"
+			},
+			"Server": {
+				"$path": "src/server"
+			},
+			"ServerPackages": {
+				"$path": "ServerPackages"
+			},
+			"Packages": {
+				"$path": "ServerPackages"
+			}
+		},
+
+		"StarterGui": {
+			"LocalScript": {
+				"$path": "map/LocalScript.rbxm"
+			},
+			"Streaming": {
+				"$path": "map/Streaming.rbxm"
+			},
+			"Interact": {
+				"$path": "map/Interact.rbxm"
+			},
+			"Interface": {
+				"$path": "map/Interface.rbxm"
+			},
+			"Notifications": {
+				"$path": "map/Notifications.rbxm"
+			}
+		},
+		"StarterPlayer": {
+			"StarterPlayerScripts": {
+				"Client": {
+					"$path": "src/client"
+				}
+			},
+			"StarterCharacterScripts": {
+				"$path": "src/character"
+			}
+		},
+
+		"ServerStorage": {
+			"$path": "map/ServerStorage.rbxm"
+		},
+		"Lighting": {
+			"$path": "map/Lighting.rbxm"
+		},
+		"Workspace": {
+			"$path": "map/Workspace.rbxm"
+		},
+		"HttpService": {
+			"$className": "HttpService",
+			"$properties": {
+				"HttpEnabled": true
+			}
+		},
+		"TextChatService": {
+			"$className": "TextChatService",
+			"$properties": {
+				"ChatVersion": "TextChatService"
+			}
+		},
+		"SoundService": {
+			"$className": "SoundService",
+			"$properties": {
+				"RespectFilteringEnabled": true
+			}
+		}
+	}
+}
