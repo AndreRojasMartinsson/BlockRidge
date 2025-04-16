@@ -1,1 +1,67 @@
-[entries]
+[entries."assets/animations/AR15_Aim.rbxm"]
+hash = "df971c604ad400868971970f651b0e4c1ce8af5a1e66c6a3683d1874447b2e32"
+asset_id = 124259636361514
+
+[entries."assets/animations/AR15_AimFire.rbxm"]
+hash = "6397989d113482c38f66d0657c6c08314d4f0d35028d69ebda7572de6f96261e"
+asset_id = 85731585397985
+
+[entries."assets/animations/AR15_Fire.rbxm"]
+hash = "b944ed3d5a9b5b39196fc07d4c492fe9914358dc9a1447822b5ef442e6a1e0eb"
+asset_id = 116493505632619
+
+[entries."assets/animations/AR15_Idle.rbxm"]
+hash = "7d085ee2ca4727a03b6235434c935fe672338b01b4f6685e709713ff429f2192"
+asset_id = 96567912089083
+
+[entries."assets/animations/AR15_Reload.rbxm"]
+hash = "ebd9cbb13b2ffb30429b01a645c8688c8f1ebb42d45280f26e21c403956872bc"
+asset_id = 114234178015297
+
+[entries."assets/animations/G21_Aim.rbxm"]
+hash = "721b35821fa415ed0452761738ed6994fa7c5b29c208388552613740f1005419"
+asset_id = 118773198201566
+
+[entries."assets/animations/G21_AimFire.rbxm"]
+hash = "ec47a1fd195dc0ecc5b9766c0c9f175425253425ef70d80f6d3b2b2f206d3bdf"
+asset_id = 111963127669749
+
+[entries."assets/animations/G21_Fire.rbxm"]
+hash = "ef9ef04ff7bb7d4b6c5276e3684410d3d846cdc2e9729e2de2a16603d528298d"
+asset_id = 80394997968601
+
+[entries."assets/animations/G21_Idle.rbxm"]
+hash = "31f19b38da1b2e8384942f2be28fa4e0ce0dc5cfe10369e03c7a9c65485fe366"
+asset_id = 78118587153528
+
+[entries."assets/animations/G21_Reload.rbxm"]
+hash = "7f9a133d54dadedf9eab1dd590ded1c699a829889f32afb34e89aca4cb496f2e"
+asset_id = 79011058145025
+
+[entries."assets/animations/Rem870_Aim.rbxm"]
+hash = "3c0dc1b6e955ddccc50863859277e4db48c9ff1af278165ab5d1cf146d8be920"
+asset_id = 81821367746873
+
+[entries."assets/animations/Rem870_AimFire.rbxm"]
+hash = "6e734c1979a25d9e1815f54230e222185bebe1c90c4ea32805aece9b3b531330"
+asset_id = 131448199610600
+
+[entries."assets/animations/Rem870_AimPump.rbxm"]
+hash = "7f94bf0e2f6e6fbd343d9acc5c59a51466ccdba77fc5e829c245ac418fdbe779"
+asset_id = 82362484374621
+
+[entries."assets/animations/Rem870_Fire.rbxm"]
+hash = "e343d5997c30f5fa5a9a332137778b494d10b9325b8534482ded9a59415c2ec8"
+asset_id = 123684698620135
+
+[entries."assets/animations/Rem870_Idle.rbxm"]
+hash = "8f31f3987db073add2a5f10fd01bfc4b40f4a9a4188390b5a695d6dd3fd23115"
+asset_id = 98588520793537
+
+[entries."assets/animations/Rem870_Pump.rbxm"]
+hash = "a824525fc0f6eaab3cbb3a57ff58cfe858239f6db183505f1a27012ea22d7351"
+asset_id = 100410049984381
+
+[entries."assets/animations/Rem870_Reload.rbxm"]
+hash = "bc3e9f3830383da820b9d68428513904c6e3a1476284601b6b6694b2b9a3579b"
+asset_id = 80058034062505
