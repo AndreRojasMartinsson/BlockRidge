@@ -1,9 +1,14 @@
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Assets = require(ReplicatedStorage.ExperienceAssets)
+local Animations = Assets.animations
+local Images = Assets.images
+
 return {
 	[1] = {
 		Name = "AR-15",
 		Asset = "AR15",
 		Price = 140,
-		Thumbnail = "rbxassetid://10415219629",
+		Thumbnail = Images.AR15_thumb,
 		Slot = 1,
 		Damage = { 80, 40 },
 
@@ -27,11 +32,11 @@ return {
 			{ 10, 5.9, -1, 0.77, 0.1 },
 		},
 		Animations = {
-			Idle = "rbxassetid://10614272869",
-			Aim = "rbxassetid://10614306784",
-			Reload = "rbxassetid://10615057488",
-			Fire = "rbxassetid://10614292984",
-			AimFire = "rbxassetid://10614315248",
+			Idle = Animations.AR15_Idle,
+			Aim = Animations.AR15_Aim,
+			Reload = Animations.AR15_Reload,
+			Fire = Animations.AR15_Fire,
+			AimFire = Animations.AR15_AimFire,
 		},
 		Attributes = {
 			Rounds = 0,
@@ -41,7 +46,7 @@ return {
 		Name = "Remmington 870",
 		Price = 100,
 		Asset = "Rem870",
-		Thumbnail = "rbxassetid://10147037856",
+		Thumbnail = Images.Rem870_thumb,
 		Slot = 1,
 		Range = 800,
 		Automatic = false,
@@ -64,13 +69,13 @@ return {
 			{ 10, 17.2, -1, 0.77, 0.1 },
 		},
 		Animations = {
-			Idle = "rbxassetid://10635729841",
-			Aim = "rbxassetid://10635749442",
-			Reload = "rbxassetid://10636510219",
-			Fire = "rbxassetid://10635906866",
-			Pump = "rbxassetid://10635894455",
-			AimFire = "rbxassetid://10635846883",
-			AimPump = "rbxassetid://10636513371",
+			Idle = Animations.Rem870_Idle,
+			Aim = Animations.Rem870_Aim,
+			Reload = Animations.Rem870_Reload,
+			Fire = Animations.Rem870_Fire,
+			AimFire = Animations.Rem870_AimFire,
+			Pump = Animations.Rem870_Pump,
+			AimPump = Animations.Rem870_AimPump,
 		},
 		Attributes = {
 			Rounds = 0,
@@ -80,7 +85,7 @@ return {
 		Name = "Glock 21",
 		Asset = "G21",
 		Price = 90,
-		Thumbnail = "rbxassetid://10415117542",
+		Thumbnail = Images.G21_thumb,
 		Slot = 2,
 		Range = 600,
 		Damage = { 68, 35 },
@@ -105,11 +110,11 @@ return {
 			{ 10, 5.9, -1, 0.77, 0.1 },
 		},
 		Animations = {
-			Idle = "rbxassetid://10635246131",
-			Aim = "rbxassetid://10635276673",
-			Reload = "rbxassetid://10635461138",
-			Fire = "rbxassetid://10635415739",
-			AimFire = "rbxassetid://10635405409",
+			Idle = Animations.G21_Idle,
+			Aim = Animations.G21_Aim,
+			Reload = Animations.G21_Reload,
+			Fire = Animations.G21_Fire,
+			AimFire = Animations.G21_AimFire,
 		},
 		Attributes = {
 			Rounds = 0,
@@ -121,7 +126,7 @@ return {
 		Slot = 6,
 
 		Price = 1000,
-		Thumbnail = "rbxassetid://10415230769",
+		Thumbnail = Images.LFIP_thumb,
 		Stackable = false,
 		Type = "Identification",
 	},
@@ -130,7 +135,7 @@ return {
 		Asset = "TBaton",
 		Price = 0,
 		Slot = 4,
-		Thumbnail = "rbxassetid://10415269179",
+		Thumbnail = Images.TBaton_thumb,
 		Stackable = false,
 		Type = "Melee",
 	},
@@ -175,7 +180,7 @@ return {
 		Asset = "Taser",
 		Price = 0,
 		Slot = 3,
-		Thumbnail = "rbxassetid://10415100931",
+		Thumbnail = Images.Taser_thumb,
 		Stackable = false,
 		Type = "Taser",
 		Attributes = {
