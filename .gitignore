@@ -1,5 +1,12 @@
 sourcemap.json
 
+/DevPackages
+/ServerPackages
+/Packages
+assets/init.luau
+/map
+
+
 # Project place file
 /place.rbxlx
 /place.rbxl
