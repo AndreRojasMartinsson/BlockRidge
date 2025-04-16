@@ -3,6 +3,8 @@ sourcemap.json
 # Project place file
 /place.rbxlx
 /place.rbxl
+/*.rbxlx
+/*.rbxl
 
 # Roblox Studio lock files
 /*.rbxlx.lock
